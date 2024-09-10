@@ -23,7 +23,9 @@ OMDB App is a simple iOS application that allows users to search for movies and 
 
 <img src="https://github.com/user-attachments/assets/b5b980bb-8b16-460f-92f7-c3785b735d72" alt="Movie Details - Top" width="300"/>
 
-<img src="https://github.com/user-attachments/assets/1c411b16-4158-4715-8ab7-6bbc6d300adb" alt="Movie Details - Bottom" width="300"/>
+<img src="https://github.com/user-attachments/assets/1c411b16-4158-4715-8ab7-6bbc6d300adb" alt="Movie Details - Middle" width="300"/>
+
+<img src="https://github.com/user-attachments/assets/6757e9c1-82c1-4ea2-811b-b41409bbcf00" alt="Movie Details - Bottom" width="300"/>
 
 ## Getting Started
 
