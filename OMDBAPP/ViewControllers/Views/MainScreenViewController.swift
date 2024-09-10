@@ -86,17 +86,17 @@ class MainScreenViewController: UIViewController, UIPickerViewDelegate, UIPicker
             searchTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             searchTextField.heightAnchor.constraint(equalToConstant: 40),
            
-            typePicker.topAnchor.constraint(equalTo: searchTextField.bottomAnchor, constant: 8),
+            typePicker.topAnchor.constraint(equalTo: searchTextField.bottomAnchor, constant: 1),
             typePicker.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             typePicker.widthAnchor.constraint(equalToConstant: 150),
             typePicker.heightAnchor.constraint(equalToConstant: 100),
            
-            searchButton.topAnchor.constraint(equalTo: searchTextField.bottomAnchor, constant: 32),
+            searchButton.topAnchor.constraint(equalTo: searchTextField.bottomAnchor, constant: 24),
             searchButton.leadingAnchor.constraint(equalTo: typePicker.trailingAnchor, constant: 50),
             searchButton.heightAnchor.constraint(equalToConstant: 44),
             searchButton.widthAnchor.constraint(equalToConstant: 120),
             
-            collectionView.topAnchor.constraint(equalTo: searchButton.bottomAnchor, constant: 8),
+            collectionView.topAnchor.constraint(equalTo: searchButton.bottomAnchor, constant: 18),
             collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
