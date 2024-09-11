@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct MovieResponse: Codable {
     let movies: [Movie]?
     let totalResults: String?
