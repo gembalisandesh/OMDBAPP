@@ -67,6 +67,7 @@ class MovieDetailViewController: UIViewController {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 16)
         label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -241,6 +242,9 @@ class MovieDetailViewController: UIViewController {
             let detailLabel = UILabel()
             detailLabel.font = UIFont.systemFont(ofSize: 16)
             detailLabel.text = "\(key): \(value ?? "N/A")"
+            detailLabel.numberOfLines = 0
+            detailLabel.lineBreakMode = .byWordWrapping
+        
             sectionStackView.addArrangedSubview(detailLabel)
         }
         

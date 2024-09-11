@@ -154,6 +154,7 @@ class MainScreenViewController: UIViewController, UIPickerViewDelegate, UIPicker
             }
         }
     }
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
